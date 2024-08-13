@@ -1,0 +1,163 @@
+/* Reset CSS para márgenes y rellenos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+     background-color: #0a0a23;
+    color: #dfdfe2;
+}
+
+main {
+ display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 10px;
+}
+
+h1 {
+ font-size: 2.5rem;
+    margin: 20px 0;
+    text-align: center;
+}
+#change-due {
+     border: 10px solid #99c9ff;
+    background-color: black;
+    
+    min-width: 200px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.input-div {
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0 20px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+}
+
+.user-input {
+ height: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.check-btn-styles {
+ cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    color: #0a0a23;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border-color: #feac32;
+    border-width: 3px;
+}
+
+.check-btn-styles:hover {
+  color:#6b4000;
+  background-color: #333;
+  
+}
+
+.container {
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.price-screen {
+ border: 10px solid #99c9ff;
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    margin-left: -40px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.connector {
+ margin-left: -20px;
+    background-color: #99c9ff;
+    height: 30px;
+    width: 40px;
+}
+
+.top-register {
+      display: flex;
+    justify-content: space-around;
+    border-radius: 35px 35px 0 0;
+    padding-top: 20px;
+    background-color: #99c9ff;
+    height: 250px;
+    width: 325px;
+}
+
+.btns-container {
+ width: 25%;
+}
+
+.btn {
+  color:white;
+     border-radius: 10%;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin:2px;
+    cursor:pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.cash-drawer-display {
+font-size: 1.1rem;
+    background-color: white;
+    width: 55%;
+    height: 97%;
+    color: black;
+    padding: 10px;
+}
+
+.bottom-register {
+      background-color: #99c9ff;
+    height: 50px;
+    width: 325px;
+    margin-top: 10px;
+}
+
+.circle {
+margin: 15px auto;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
